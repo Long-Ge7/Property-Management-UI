@@ -12,6 +12,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+![Uploading QQ截图20240613233315.png…]()
+
 ## Project Setup
 
 ```sh
