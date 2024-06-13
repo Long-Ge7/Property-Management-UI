@@ -29,3 +29,19 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Install Mock
+```sh
+npm run build
+```
+
+### Start Mock
+```sh
+npm run serve
+```
