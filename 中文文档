@@ -1,0 +1,40 @@
+推荐的 IDE 设置
+使用 VSCode + Volar（并禁用 Vetur）。
+
+TypeScript 支持 .vue 导入
+TypeScript 默认情况下无法处理 .vue 导入的类型信息，所以我们用 vue-tsc 替代 tsc CLI 进行类型检查。在编辑器中，我们需要 Volar 使 TypeScript 语言服务识别 .vue 类型。
+
+自定义配置
+请参见 Vite 配置参考。
+
+### 项目设置
+```sh
+npm install
+```
+
+### 编译并热重载开发环境
+```sh
+npm run dev
+```
+
+### 类型检查、编译并压缩用于生产环境
+
+```sh
+npm run build
+```
+
+### 类型检查、编译并压缩用于生产环境
+
+```sh
+npm run build
+```
+
+### 安装 Mock
+```sh
+npm run build
+```
+
+### 启动 Mock
+```sh
+npm run serve
+```
