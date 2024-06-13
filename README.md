@@ -12,7 +12,9 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-![Uploading QQ截图20240613233315.png…]()
+
+
+![QQ截图20240613233315](https://github.com/Long-Ge7/Property-Management-UI/assets/57677273/280e8e9b-126d-4811-ace4-64f708bbc621)
 
 
 ## Project Setup
