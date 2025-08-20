@@ -1,52 +1,78 @@
-This template should help get you started developing with Vue 3 in Vite.
+# Vue 3 + Vite 项目开发指南
 
-## Recommended IDE Setup
+本模板可帮助你快速开始基于 **Vue 3** 和 **Vite** 的前端开发。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Type Support for `.vue` Imports in TS
+## 推荐的开发环境
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **编辑器：** [VSCode](https://code.visualstudio.com/)
+- **插件：** [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)（请关闭 Vetur）
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## TypeScript 与 `.vue` 类型支持
 
+- **问题：** TypeScript 默认无法解析 `.vue` 文件的类型信息。
+- **解决方案：** 使用 `vue-tsc` 代替 `tsc` 进行类型检查。
+- **编辑器支持：** 借助 Volar，使 TypeScript 语言服务识别 `.vue` 类型。
 
+---
 
-![QQ截图20240613233315](https://github.com/Long-Ge7/Property-Management-UI/assets/57677273/280e8e9b-126d-4811-ace4-64f708bbc621)
+## 配置定制
 
+更多配置细节请参考 [Vite 配置文档](https://vitejs.dev/config/)。
 
-## Project Setup
+---
+
+## 项目初始化
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+---
+
+## 开发环境启动
+
+热更新模式下运行：
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+---
+
+## 构建生产版本
+
+执行构建并压缩代码：
 
 ```sh
 npm run build
 ```
 
-### Type-Check, Compile and Minify for Production
+---
+
+## Mock 服务
+
+### 安装 Mock（如有需要）
 
 ```sh
-npm run build
+npm run mock:install
 ```
 
-### Install Mock
+### 启动 Mock 服务
+
 ```sh
-npm run build
+npm run mock:serve
 ```
 
-### Start Mock
-```sh
-npm run serve
-```
+---
+
+## 运行效果截图
+
+![QQ截图20240613233315](https://github.com/Long-Ge7/Property-Management-UI/assets/57677273/280e8e9b-126d-4811-ace4-64f708bbc621)
+
+---
+
+
